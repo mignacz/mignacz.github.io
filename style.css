@@ -23,3 +23,33 @@ header {
     border-radius: 4px;
   }
   
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #003366;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 0.5rem 0;
+  }
+  
+  a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #eee;
+    margin-top: 2rem;
+  }
