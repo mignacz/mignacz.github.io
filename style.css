@@ -12,3 +12,14 @@ header {
     text-align: center;
     padding: 2rem;
   }
+
+  .btn {
+    background: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+  
