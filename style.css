@@ -2,9 +2,7 @@ body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
-    background: linear-gradient(135deg, #e0f7fa, #fce4ec, #e1bee7, #d1c4e9);
-    background-size: 400% 400%;
-    animation: gradientBG 20s ease infinite;
+    background-color: #e6f5e6; /* soft, light green */
     color: #003366;
   }
 
@@ -45,47 +43,26 @@ nav a:hover {
   }
   
 header {
-    background: #003366;
-    color: white;
     text-align: center;
     padding: 3rem 1 rem;
   }
-
-  .btn {
-    background: #ffcc00;
-    color: #003366;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 4px;
-  }
   
-  section {
+section {
     padding: 2rem;
     max-width: 800px;
     margin: auto;
   }
   
-  h2 {
+h2 {
     color: #003366;
   }
   
-  ul {
-    list-style: none;
-    padding: 0;
-  }
   
-  ul li {
+ul li {
     padding: 0.5rem 0;
   }
   
-  a {
-    color: #003366;
-    text-decoration: none;
-  }
-  
-  footer {
+footer {
     text-align: center;
     padding: 1rem;
     background: #eee;
