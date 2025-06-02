@@ -1,9 +1,23 @@
+html, body {
+  height: 100%;
+}
+
 body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
     background-color: #c3f7d5; /* soft, light green */
     color: #003366;
+  }
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.page-container > footer {
+    margin-top: auto;
   }
 
 nav {
@@ -35,10 +49,15 @@ nav a {
 nav a:hover {
     text-decoration: underline;
   }
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
   
 header {
     text-align: center;
-    padding: 3rem 1 rem;
+    padding: 3rem 1rem;
   }
   
 section {
